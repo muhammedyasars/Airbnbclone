@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  
+  .searchparent {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+  }
+  
+  .searchinputs > input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+  }
+  
+  .menusection {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+  }
+  .submenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 10px;
+  }
+  .submenu h5 {
+    margin-top: 5px;
+    color: rgb(157, 157, 157);
+  }
+  .submenu img {
+    width: 25px;
+  }
+  .submenu svg{
+    position: absolute;
+    right: 1px;
+  }
+  .submenu svg:hover{
+    background-color: grey;
+    border-radius: 40px;
+  }
+  
+  .first {
+    border-bottom: 3px solid black;
+  }
+  .submenu:hover {
+    border-bottom: 3px solid rgb(190, 190, 190);
+  }
+  
+  .searchinputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 40px;
+  }
+  .searchinputs:hover {
+    background-color: rgb(214, 214, 214);
+  }
+  
+  .searchbtn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+  .searchbtn button {
+    padding: 16px;
+    background-color: rgb(255, 45, 97);
+    border-radius: 40px;
+    border: 0;
+    transition: 0.2s ease-in-out;
+  }
+  .searchbtn button:hover {
+    background-color: rgb(209, 50, 90);
+  }
+  
+  .imagecontainer {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto;
+    gap: 15px;
+    padding: 50px 0px;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  .imagediv .image1 {
+    width: 100%;
+    height: auto;
+  }
+  
+  .imagediv .image1 img {
+    border-radius: 20px;
+    width: 100%;
+    height: 290px;
+  }
+  
+  .pastexitems {
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    grid-template-rows: auto;
+    gap: 15px;
+    padding: 50px 0px;
+    align-content: center;
+    justify-content: center;
+  }
+  body {
+    padding: 15px 50px;
+    font-family: "Lato", sans-serif;
+    background-color: white;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 92%;
+    background-color: white;
+    z-index: 999;
+  }
+  .leftside > img {
+    height: 30px;
+    width: 100px;
+  }
+  .rightside {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile > button {
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    border-radius: 30px;
+    border: 1px solid gray;
+    transition: 0.2s ease;
+  }
+  
+  .profile > button:hover {
+    box-shadow: 0px 2px 10px gray;
+  }
+  .center {
+    display: flex;
+  }
+  
+  .center h4 {
+    margin: 0 3px;
+    padding: 10px;
+    border-radius: 30px;
+  }
+  
+  .center > h4 > a {
+    color: rgb(171, 171, 171);
+  }
+  
+  .center h4:hover {
+    background-color: rgb(228, 228, 228);
+  }
+  .center h4:hover a {
+    color: black;
+  }
+  
+  .airbnbhome {
+    padding: 13px;
+    border-radius: 30px;
+    border: 0;
+    background-color: transparent;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+  }
+  .airbnbhome:hover {
+    background-color: rgb(228, 228, 228);
+  }
+  
+  .rightside > div {
+    margin-left: 10px;
+  }
+  
+  .lang {
+    padding: 13px;
+    border-radius: 30px;
+  }
+  .lang:hover:hover {
+    background-color: rgb(228, 228, 228);
+  }
+  
+  .search > form {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .search {
+    background-color: white;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    border-radius: 40px;
+    margin: 20px;
+    border: 1px solid rgb(217, 217, 217);
+    box-shadow: 0 7px 15px rgb(219, 219, 219);
+    overflow: hidden;
+    position: relative;
+  }
